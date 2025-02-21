@@ -35,7 +35,7 @@ async def approve(_, m: Message):
         
         await app.send_message(
             kk.id, 
-            "**Hello {}!\nWelcome To {}\n\n  __**".format(m.from_user.mention, m.chat.title),
+            "**Hello {}!\nWelcome To {}\n **".format(m.from_user.mention, m.chat.title),
             reply_markup=keyboard
         )
         
