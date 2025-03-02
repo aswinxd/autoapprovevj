@@ -30,7 +30,7 @@ async def approve(_, m: Message):
         await app.approve_chat_join_request(op.id, kk.id)
         
         keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("click here to approve", url="https://t.me/elitesmusicbot?start=start")]
+            [InlineKeyboardButton("click here to approve", url="https://t.me/Hybrid_approve_bot?start=start")]
         ])
         
         await app.send_message(
@@ -67,8 +67,8 @@ async def op(_, m :Message):
         return 
     keyboard = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("🗯 Channel", url="https://t.me/vj_botz"),
-            InlineKeyboardButton("💬 Support", url="https://t.me/vj_bot_disscussion")
+            InlineKeyboardButton("🗯 Channel", url="https://t.me/THEHYBRIDS"),
+            InlineKeyboardButton("💬 Support", url="https://t.me/+evyqkyjbocrindg1")
         ]]
     )
     add_user(m.from_user.id)
@@ -86,8 +86,8 @@ async def chk(_, cb : CallbackQuery):
         return 
     keyboard = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("🗯 Channel", url="https://t.me/vj_botz"),
-            InlineKeyboardButton("💬 Support", url="https://t.me/vj_bot_disscussion")
+            InlineKeyboardButton("🗯 Channel", url="https://t.me/THEHYBRIDS"),
+            InlineKeyboardButton("💬 Support", url="https://t.me/+evyqkyjbocrindg1")
         ]]
     )
     add_user(m.from_user.id)
